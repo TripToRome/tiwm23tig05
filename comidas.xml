@@ -1,0 +1,22 @@
+<comidas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="comidas.xsd">
+
+  <comida>
+    <nome>Carbonara</nome>
+    <calorias>504</calorias>
+    <preco>17</preco>
+  </comida>
+
+  <comida>
+    <nome>Penne all’arrabbiata</nome>
+    <calorias>600</calorias>
+    <preco>15</preco>
+  </comida>
+
+  <comida>
+    <nome>Pizza</nome>
+    <calorias>266</calorias>
+    <preco>10</preco>
+  </comida>
+
+</comidas>
