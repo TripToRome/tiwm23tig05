@@ -51,6 +51,12 @@ footer {
     width: 99,9%;
 }
 
+.Footerlogo {
+    width: 50px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+
 .container {
     display: flex;
     align-items: center;
