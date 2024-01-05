@@ -53,6 +53,7 @@ footer {
 
 .Footerlogo {
     width: 150px;
+    align-items: center;
   }
 
 .container {
