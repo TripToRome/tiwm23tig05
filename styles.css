@@ -233,7 +233,7 @@ footer {
     margin-bottom: 40px;
     margin-top: 40px;
 }
-
+#---
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
