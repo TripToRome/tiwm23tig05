@@ -106,6 +106,7 @@ footer {
 .content2 {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-bottom: 0.67em;
     margin: 0;
     padding: 0;
     display: flex;
