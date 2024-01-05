@@ -215,6 +215,13 @@ footer {
     visibility: visible;
   }
 
+.lista{
+    text-align: center;
+    width:50%; 
+    height:50px; 
+    border: 1px;
+}
+
 .video {
     max-width: 1024px;
     margin: 0 auto;
