@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="XML_Js.js" ></script>
     <title>Viagem a Roma</title>
 
 </head>
@@ -29,10 +30,9 @@
 
     <h2>Lista de Comidas</h2>
 
-    <iframe src="comidas.xml" class="lista">
-        Se isto aparecer é porque o seu browser não suporta a lista que era desejada, sobre a comida que roma tem para oferecer!
-    </iframe>
-
+    <p id="action01">Load data</p>
+    <p>Data extracted from a <strong>XML</strong> file</p>
+    <div id="books"></div>
 
     <h2 class="content3">Seis Pratos e Onde Comer</h2>
     <p class="content3">Nos restaurantes de Roma, você encontrará pratos clássicos italianos: lasanha, gnocchi, polenta, uma grande variedade de massas e carnes, tiramisu e outros. Mas também há inúmeros pratos da culinária local, que recomendo provar. 
@@ -79,4 +79,15 @@
         <img src="https://www.ipmaia.pt/SiteCollectionImages/logo_ipmaia_site_logo_ipmaia_small.png" alt="IPMAIA Logo" class="footerlogo"/>    
     </footer>
 
+    <script>
+        function ready() {
+            var pElement = document.getElementById("action01");
+            pElement.style.cursor = "pointer";
+            pElement.onclick = function () {
+                loadData();
+                return false;
+            }
+        }
+    </script>
+    
     </body>
