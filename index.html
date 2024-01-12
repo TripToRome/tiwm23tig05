@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
     <title>Viagem a Roma</title>
 </head>
 
@@ -16,15 +15,52 @@
     </header>
 
     <nav>
-        <a href="aba1.html">Pontos Turísticos</a>
-        <a href="aba2.html">Gastronomia</a>
-        <a href="aba3.html">História</a>
-        <a href="aba4.html">Planeamento</a>
+        <a href="pages/pontosTuristicos.html" class="link">Pontos Turísticos</a>
+        <a href="pages/gastronomia.html" class="link">Gastronomia</a>
+        <a href="pages/historia.html" class="link">História</a>
+        <a href="pages/planeamento.html" class="link">Planeamento</a>
     </nav>
 
-    <main>
-        
-        <img src="imgs/Coliseu.jpeg" alt="Snow" width=100% height=600px>
+    <div style="display: flex;align-items: center;justify-content: center;">
+        <div class="slider">
+            <div class="slides">
+
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="/imgs/casaum.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/imgs/Coliseu.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="4.jpg" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
+
+    <main class="body-content">
 
         <div class="container">
             <div class="image-container">
@@ -32,12 +68,12 @@
             </div>
             <div class="content">
                 <h2>Título do Conteúdo</h2>
-                    <div class="tooltip">Seu conteúdo vai aqui...
-                        <span class="tooltiptext">Precisa de ajuda?</span>
-                    </div>
+                <div class="tooltip">Seu conteúdo vai aqui...
+                    <span class="tooltiptext">Precisa de ajuda?</span>
+                </div>
             </div>
         </div>
-        
+
         <div class="container">
             <div class="content">
                 <h2>Título do Conteúdo</h2>
@@ -47,31 +83,37 @@
                 <img src="imgs/fonte.jpg" alt="Descrição da Imagem" width=100%>
             </div>
         </div>
-        
+
         <div class="video">
-            <iframe width="1000" height="450" src="https://www.youtube.com/embed/8ytYbRK2Q_Y?si=oYB8ms0K1Ek9i18W;autoplay=1&mute=1" title="Viagem a Roma" frameborder="1" allow="" allowfullscreen></iframe>
+            <iframe width="1000" height="450"
+                src="https://www.youtube.com/embed/8ytYbRK2Q_Y?si=oYB8ms0K1Ek9i18W;autoplay=1&mute=1"
+                title="Viagem a Roma" frameborder="1" allow="" allowfullscreen></iframe>
         </div>
 
-        <div class = "mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.7643209635!2d12.5359979!3d41.9100711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2zUm9tYSwgSXTDoWxpYQ!5e0!3m2!1spt-PT!2spt!4v1703346048074!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.7643209635!2d12.5359979!3d41.9100711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2zUm9tYSwgSXTDoWxpYQ!5e0!3m2!1spt-PT!2spt!4v1703346048074!5m2!1spt-PT!2spt"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
-        <div id="newsletter-container">
-            <h2>Junte-se á nossa Newsletter!</h2>
-            <p>Receba as últimas novidades sobre Roma diretamente na sua caixa de entrada.</p>
-        
-            <form id="newsletter-form">
-                <input type="email" id="email" name="email" placeholder="Digite o seu e-mail..." required>
-                <input type="submit" value="Submeter" id="newsletter-submit">
-            </form>
-        </div>
-
     </main>
+
+    <div id="newsletter-container">
+        <h2>Junte-se á nossa Newsletter!</h2>
+        <p>Receba as últimas novidades sobre Roma diretamente na sua caixa de entrada.</p>
+
+        <p id="newsletter-form">
+            <input type="email" id="email" name="email" placeholder="Digite o seu e-mail..." required>
+            <input type="submit" value="Submeter" id="newsletter-submit">
+        </p>
+    </div>
 
     <footer>
         <p>Todos os direitos reservados a João Pinheiro, Ricardo Jesus e Alef Amaral.</p>
-        <img src="https://www.ipmaia.pt/SiteCollectionImages/logo_ipmaia_site_logo_ipmaia_small.png" alt="IPMAIA Logo" class="footerlogo"/>    
+        <img src="https://www.ipmaia.pt/SiteCollectionImages/logo_ipmaia_site_logo_ipmaia_small.png" alt="IPMAIA Logo"
+            class="footerlogo" />
     </footer>
 
 </body>
+
 </html>
