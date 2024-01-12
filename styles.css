@@ -151,13 +151,17 @@ nav a {
 }
 
 .mapa {
-  max-width: 1024px;
+  max-width: 1000px; /* Ajuste o valor conforme necessário */
+  height: 400px;
   margin: 0 auto;
+  margin-top: 20px;
+  width: 100%;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .video {
@@ -293,7 +297,8 @@ form {
 }
 
 .slider {
-  width: 800px;
+  max-width: 1000px;
+  width: 100%;
   height: 500px;
   border-radius: 10px;
   overflow: hidden;
@@ -316,16 +321,18 @@ form {
 }
 
 .slide img {
-  width: 800px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .navigation-manual {
   position: absolute;
-  width: 800px;
+  width: 1000px;
   margin-top: -40px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .manual-btn {
@@ -367,7 +374,7 @@ form {
 .navigation-auto {
   position: absolute;
   display: flex;
-  width: 800px;
+  width: 1000px;
   justify-content: center;
   margin-top: 460px;
 }
