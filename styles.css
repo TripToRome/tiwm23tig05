@@ -411,20 +411,20 @@ form {
 
 @media only screen and (max-width: 768px) {
   .slider {
-    height: 300px; /* Ajuste a altura conforme necessário para dispositivos móveis */
+    height: 300px;
   }
 
   .slides {
-    height: 300px; /* Ajuste a altura conforme necessário para dispositivos móveis */
+    height: 300px;
   }
 
   .slide {
-    width: 50%; /* Ajuste a largura conforme necessário para dispositivos móveis */
+    width: 50%;
   }
 
   .manual-btn,
   .navigation-auto div {
-    font-size: 12px; /* Ajuste o tamanho da fonte conforme necessário para dispositivos móveis */
+    font-size: 12px;
   }
 }
 
