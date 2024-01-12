@@ -329,7 +329,8 @@ form {
 
 .navigation-manual {
   position: absolute;
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   margin-top: -40px;
   display: flex;
   justify-content: center;
@@ -375,7 +376,8 @@ form {
 .navigation-auto {
   position: absolute;
   display: flex;
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   justify-content: center;
   margin-top: 460px;
 }
@@ -393,7 +395,6 @@ form {
 
 #radio1:checked~.navigation-auto .auto-btn1 {
   background: #992532;
-  ;
 }
 
 #radio2:checked~.navigation-auto .auto-btn2 {
@@ -406,6 +407,25 @@ form {
 
 #radio4:checked~.navigation-auto .auto-btn4 {
   background: #992532;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider {
+    height: 300px; /* Ajuste a altura conforme necessário para dispositivos móveis */
+  }
+
+  .slides {
+    height: 300px; /* Ajuste a altura conforme necessário para dispositivos móveis */
+  }
+
+  .slide {
+    width: 50%; /* Ajuste a largura conforme necessário para dispositivos móveis */
+  }
+
+  .manual-btn,
+  .navigation-auto div {
+    font-size: 12px; /* Ajuste o tamanho da fonte conforme necessário para dispositivos móveis */
+  }
 }
 
 /* -------------------- */
