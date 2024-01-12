@@ -13,7 +13,6 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
-
 }
 
 .section-container {
@@ -139,15 +138,14 @@ nav a {
   padding: 20px;
 }
 
+.imagemIndex {
+  width: 100%;
+}
 
 #iframe{
   width: 600px;
   height: 450px;
   border: 0;
-}
-
-.imagemIndex {
-  width: 100%;
 }
 
 .mapa {
@@ -285,6 +283,12 @@ form {
 
 
 /* Slider com JavaScript */
+
+.slidercentro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .slider {
   width: 800px;
