@@ -134,8 +134,8 @@ nav a {
 
 .img {
   width: 100%;
-  max-height: 650px; /* Use max-height em vez de height para responsividade */
-  object-fit: cover; /* Mantém a proporção da imagem e a cobre completamente */
+  max-height: 650px;
+  object-fit: cover;
   border-radius: 2rem;
   padding: 20px;
 }
@@ -195,7 +195,13 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-
+.hr-custom {
+  width: 50%; /* Ajuste a largura conforme necessário */
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  margin: 10px auto; /* Centraliza a linha horizontal */
+}
 
 /* Estilo da Newsletter do Incio */
 
