@@ -1,4 +1,4 @@
-body,h2,p,ul,ol,li {
+body, h2, p, ul, ol, li {
   margin: 0;
   padding: 0;
 }
@@ -11,11 +11,9 @@ body {
 .body-content {
   width: 70%;
   margin: auto;
-  align-items: center;
-  justify-content: center;
 }
 
-.section-container {
+section {
   width: 80%;
   margin: 0 auto;
 }
@@ -24,11 +22,9 @@ ul {
   list-style: none;
 }
 
-@media screen and (max-width: 768px) {}
-
 header {
   background-color: #992532;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   padding: 20px;
   font-size: 20px;
@@ -41,12 +37,11 @@ footer {
   padding: 10px;
   position: relative;
   bottom: 0;
-  width: 99, 9%;
+  width: 99.9%;
 }
 
 .footerlogo {
   width: 150px;
-  align-items: center;
 }
 
 nav {
@@ -69,7 +64,6 @@ nav a {
   padding: 15px;
   border: 2px solid #3a3935;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  box-shadow: 50px;
   border-radius: 8px;
   margin-bottom: 10px;
   margin-top: 40px;
@@ -87,16 +81,9 @@ nav a {
 
 .image-container {
   flex: 1;
-  margin-right: 20px;
-  border-right: 2px solid #ccc;
-  padding-right: 20px;
-}
-
-.image-container2 {
-  flex: 1;
-  margin-left: 20px;
-  border-left: 2px solid #ccc;
-  padding-left: 20px;
+  margin: 0 20px;
+  border: 2px solid #ccc;
+  padding: 0 20px;
 }
 
 .content {
@@ -111,25 +98,11 @@ nav a {
 }
 
 .content3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   padding: 0;
   display: flex;
   text-align: center;
   justify-content: center;
-}
-
-.content4 {
-  color: #992532;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin: 10px;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding-top: 10px;
 }
 
 .img {
@@ -138,12 +111,6 @@ nav a {
   object-fit: cover;
   border-radius: 2rem;
   padding: 20px;
-}
-
-#iframe{
-  width: 600px;
-  height: 450px;
-  border: 0;
 }
 
 .mapa {
@@ -196,14 +163,12 @@ form {
 }
 
 .hr-custom {
-  width: 50%; /* Ajuste a largura conforme necessário */
+  width: 50%;
   height: 1px;
   background-color: #ccc;
   border: none;
-  margin: 10px auto; /* Centraliza a linha horizontal */
+  margin: 10px auto;
 }
-
-/* Estilo da Newsletter do Incio */
 
 #newsletter-container {
   width: auto;
@@ -232,21 +197,10 @@ form {
   cursor: pointer;
 }
 
-/* -------------------- */
-
-
-/* Cubos das páginas Planeamento e Gastronomia */
-
-.cubos-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin: 20px;
-}
-
+.cubos-container,
 .cubos-container2 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   margin: 20px;
 }
@@ -260,11 +214,6 @@ form {
   height: auto;
   border-radius: 8px;
 }
-
-/* -------------------- */
-
-
-/* Tooltip pedida pelo professor */
 
 .tooltip {
   position: relative;
@@ -287,11 +236,6 @@ form {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-
-/* -------------------- */
-
-
-/* Slider */
 
 .slidercentro {
   display: flex;
@@ -371,10 +315,6 @@ form {
   margin-left: -60%;
 }
 
-#radio4:checked~.first {
-  margin-left: -60%;
-}
-
 .navigation-auto {
   position: absolute;
   display: flex;
@@ -429,5 +369,3 @@ form {
     font-size: 12px;
   }
 }
-
-/* -------------------- */
