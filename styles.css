@@ -67,7 +67,9 @@ nav a {
   max-width: 1024px;
   margin: 0 auto;
   padding: 15px;
-  border: 7px solid #3a3935;
+  border: 2px solid #3a3935;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 50px;
   border-radius: 8px;
   margin-bottom: 10px;
   margin-top: 40px;
