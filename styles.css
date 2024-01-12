@@ -155,6 +155,16 @@ nav a {
   align-items: center;
 }
 
+#iframe{
+  width: 600px;
+  height: 450px;
+  style: border 0;
+}
+
+.imagemIndex {
+  width: 100%;
+}
+
 .mapa {
   max-width: 1024px;
   margin: 0 auto;
