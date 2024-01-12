@@ -6,6 +6,7 @@ body, h2, p, ul, ol, li {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: #ffff
 }
 
 .body-content {
@@ -110,7 +111,7 @@ nav a {
   max-height: 650px;
   object-fit: cover;
   border-radius: 2rem;
-  padding: 20px;
+  margin-top: 20px;
 }
 
 .mapa {
