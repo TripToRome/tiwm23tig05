@@ -253,15 +253,57 @@ tbody tr:hover {
 
 /* Fim da Tabela da Gastronia */
 
-/* Formulário Planemanto */
+/* Estilo Comum para Formulários */
 
-form {
+form,
+#newsletter-form {
+  max-width: 500px;
+  margin: 0 auto;
   text-align: center;
-  width: 10px;
-  background-color: #fff;
   padding: 20px;
+  background-color: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#newsletter-container {
+  width: auto;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+form input,
+#newsletter-form input,
+form textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.form-btn,
+#newsletter-submit {
+  background-color: #992532;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-btn:hover,
+#newsletter-submit:hover {
+  background-color: #992533bb;
+}
+
+#contact-form textarea {
+  resize: none;
+}
+
+#contact-form .form-btn {
+  margin-top: 10px;
 }
 
 .botao-form {
@@ -278,46 +320,7 @@ form {
   background-color: #992533bb;
 }
 
-/* FimFormulário Planemanto */
-
-/* Newsletter Incio */
-
-.form-inicio {
-  width: auto;
-  text-align: center;
-  margin-top: 20px;
-  padding: 20px;
-  background-color: #f5f5f5;
-}
-
-#newsletter-container {
-  width: auto;
-  text-align: center;
-  margin-top: 20px;
-  padding: 20px;
-  background-color: #f5f5f5;
-}
-
-#newsletter-form {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-#newsletter-form input {
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-#newsletter-submit {
-  background-color: #992532;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-/* Fim Newsletter Incio */
+/* Fim Estilo Comum para Formulários */
 
 /* Cubos História, Gastronomia e Planeamento */
 
