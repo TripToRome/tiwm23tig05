@@ -50,6 +50,7 @@ header {
   color: #992532;
   transition: transform 0.3s ease;
   transform: scale(1.2);
+  float: none;
 }
 
 footer {
@@ -77,6 +78,7 @@ nav a {
   text-decoration: none;
   padding: 10px;
   display: inline-block;
+  float: none;
 }
 
 .container {
@@ -279,6 +281,14 @@ form {
 /* FimFormulário Planemanto */
 
 /* Newsletter Incio */
+
+.form-inicio {
+  width: auto;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
 
 #newsletter-container {
   width: auto;
