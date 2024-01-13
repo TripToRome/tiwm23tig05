@@ -4,19 +4,25 @@
   <comida>
     <nome>Carbonara</nome>
     <calorias>504</calorias>
-    <preco>17€</preco>
+    <preco>7€</preco>
   </comida>
 
   <comida>
-    <nome>Bolonhesa</nome>
-    <calorias>600</calorias>
-    <preco>15€</preco>
-  </comida>
-
-  <comida>
-    <nome>Pizza</nome>
+    <nome>Pizza Romana</nome>
     <calorias>266</calorias>
     <preco>10€</preco>
+  </comida>
+
+  <comida>
+    <nome>Supplì</nome>
+    <calorias>266</calorias>
+    <preco>1,50€</preco>
+  </comida>
+
+  <comida>
+    <nome>Cacio e Pepe</nome>
+    <calorias>504</calorias>
+    <preco>5€</preco>
   </comida>
 
 </comidas>
