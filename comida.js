@@ -20,5 +20,5 @@ document.addEventListener("DOMContentLoaded", function () {
         tableBody.appendChild(row);
       });
     })
-    .catch((error) => console.error("Error fetching XML:", error));
+    .catch((error) => console.error("Error ao colocar o XML:", error));
 });
