@@ -1,9 +1,4 @@
-body,
-h2,
-p,
-ul,
-ol,
-li {
+body, h2, p, ul, ol, li {
   margin: 0;
   padding: 0;
 }
@@ -252,7 +247,7 @@ form {
 }
 
 .tooltip:hover::after {
-  content: attr(data-table); /* Use data-* attribute to store HTML content */
+  content: attr(data-table);
   position: absolute;
   background: #333;
   color: #fff;
