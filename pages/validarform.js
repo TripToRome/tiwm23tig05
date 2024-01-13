@@ -8,7 +8,7 @@ function validarFormulario() {
         return false;
     }
 
-    alert('Formulário enviado com sucesso!');
+    alert('Mensagem enviada com sucesso!');
     return true;
 }
 
