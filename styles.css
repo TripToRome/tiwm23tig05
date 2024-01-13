@@ -247,6 +247,20 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+.botao-form {
+  background-color: #992532;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao-form:hover {
+  background-color: #992533bb;
+}
+
 /* FimFormulário Planemanto */
 
 /* Newsletter Incio */
