@@ -1,9 +1,9 @@
-body {
+body, ol, li, ul {
   margin: 0;
   padding: 0;
 }
 
-h2 + p + ul + ol + li {
+h2 + p  {
   margin: 0;
   padding: 0;
 }
