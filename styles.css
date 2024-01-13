@@ -334,6 +334,11 @@ form textarea {
 
 .cubos-item {
   text-align: center;
+  box-sizing: border-box;
+  content: none;
+  margin: 0%;
+  border: 0;
+  padding: 0;
 }
 
 .cubos-item img {
