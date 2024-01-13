@@ -156,269 +156,310 @@ nav a {
   margin: 10px auto;
 }
 
+/* Substituição de Imagem */
+
+.substituir-por-imagem {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  max-height: 650px;
+  border-radius: 1.5rem;
+}
+
+.substituir-por-imagem::before {
+  content: "";
+  background-image: url('https://i.postimg.cc/V5yMF1n3/cor.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.conteudo {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.centro-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Fim Substituição de Imagem */
+
 /* Tabela da Gastronia */
 
-  table {
-    border-collapse: collapse;
-    width: 80%;
-    max-width: 800px;
-    margin: auto;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    margin-top: 20px;
-  }
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+}
 
-  thead {
-    background-color: #992532;
-    color: #fff;
-  }
+thead {
+  background-color: #992532;
+  color: #fff;
+}
 
-  th,
-  td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
 
-  tbody tr:hover {
-    color: #992532;
-    transition: transform 0.3s ease;
-    transform: scale(1.01);
-  }
+tbody tr:hover {
+  color: #992532;
+  transition: transform 0.3s ease;
+  transform: scale(1.01);
+}
 
 /* Fim da Tabela da Gastronia */
 
 /* Formulário Planemanto */
 
-  form {
-    text-align: center;
-    width: 10px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+form {
+  text-align: center;
+  width: 10px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
-/* Fim Formulário Planemanto */
+/* FimFormulário Planemanto */
 
 /* Newsletter Incio */
 
-  #newsletter-container {
-    width: auto;
-    text-align: center;
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #f5f5f5;
-  }
+#newsletter-container {
+  width: auto;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
 
-  #newsletter-form {
-    max-width: 500px;
-    margin: 0 auto;
-  }
+#newsletter-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
 
-  #newsletter-form input {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
+#newsletter-form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
 
-  #newsletter-submit {
-    background-color: #992532;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-  }
+#newsletter-submit {
+  background-color: #992532;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
 
 /* Fim Newsletter Incio */
 
 /* Cubos História, Gastronomia e Planeamento */
 
-  .cubos-container,
-  .cubos-container2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin: 20px;
-  }
+.cubos-container,
+.cubos-container2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
 
-  .cubos-item {
-    text-align: center;
-  }
+.cubos-item {
+  text-align: center;
+}
 
-  .cubos-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
+.cubos-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 
 /* Fim Cubos História, Gastronomia e Planeamento */
 
 /* Tooltip do Planemanto */
 
-  .tooltip {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-  }
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
 
-  .tooltip:hover::after {
-    content: attr(data-table);
-    position: absolute;
-    background: #333;
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    white-space: nowrap;
-    z-index: 1;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 100%;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
+.tooltip:hover::after {
+  content: attr(data-table);
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
 
-  .tooltip:hover::after {
-    opacity: 1;
-  }
+.tooltip:hover::after {
+  opacity: 1;
+}
 
 /* Fim Tooltip do Planemanto */
 
 /* Slider Inicio */
 
-  .slidercentro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.slidercentro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.slider {
+  max-width: 1000px;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.slides {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navigation-manual {
+  position: absolute;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manual-btn {
+  border: 2px solid #992532;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background: #40d3dc;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div {
+  border: 2px solid #992532;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: #992532;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: #992532;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: #992532;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: #992532;
+}
+
+@media only screen and (max-width: 768px) {
   .slider {
-    max-width: 1000px;
-    width: 100%;
-    height: 500px;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-top: 20px;
+    height: 300px;
   }
 
   .slides {
-    width: 500%;
-    height: 500px;
-    display: flex;
-  }
-
-  .slides input {
-    display: none;
+    height: 300px;
   }
 
   .slide {
-    width: 20%;
-    transition: 2s;
+    width: 50%;
   }
 
-  .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .navigation-manual {
-    position: absolute;
-    width: 100%;
-    max-width: 1000px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .manual-btn {
-    border: 2px solid #992532;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-  }
-
-  .manual-btn:not(:last-child) {
-    margin-right: 40px;
-  }
-
-  .manual-btn:hover {
-    background: #40d3dc;
-  }
-
-  #radio1:checked ~ .first {
-    margin-left: 0;
-  }
-
-  #radio2:checked ~ .first {
-    margin-left: -20%;
-  }
-
-  #radio3:checked ~ .first {
-    margin-left: -40%;
-  }
-
-  #radio4:checked ~ .first {
-    margin-left: -60%;
-  }
-
-  .navigation-auto {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    max-width: 1000px;
-    justify-content: center;
-    margin-top: 460px;
-  }
-
+  .manual-btn,
   .navigation-auto div {
-    border: 2px solid #992532;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
+    font-size: 12px;
   }
-
-  .navigation-auto div:not(:last-child) {
-    margin-right: 40px;
-  }
-
-  #radio1:checked ~ .navigation-auto .auto-btn1 {
-    background: #992532;
-  }
-
-  #radio2:checked ~ .navigation-auto .auto-btn2 {
-    background: #992532;
-  }
-
-  #radio3:checked ~ .navigation-auto .auto-btn3 {
-    background: #992532;
-  }
-
-  #radio4:checked ~ .navigation-auto .auto-btn4 {
-    background: #992532;
-  }
-
-  @media only screen and (max-width: 768px) {
-    .slider {
-      height: 300px;
-    }
-
-    .slides {
-      height: 300px;
-    }
-
-    .slide {
-      width: 50%;
-    }
-
-    .manual-btn,
-    .navigation-auto div {
-      font-size: 12px;
-    }
-  }
+}
 
 /* Fim Slider Inicio */
