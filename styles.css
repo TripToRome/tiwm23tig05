@@ -1,4 +1,9 @@
-body, h2, p, ul, ol, li {
+body,
+h2,
+p,
+ul,
+ol,
+li {
   margin: 0;
   padding: 0;
 }
@@ -6,7 +11,7 @@ body, h2, p, ul, ol, li {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #ffff
+  background-color: #ffff;
 }
 
 .body-content {
@@ -142,10 +147,34 @@ nav a {
   height: 100%;
 }
 
-.table {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #992532;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  color: #992532;
+  transition: transform 0.3s ease;
+  transform: scale(1.01);
 }
 
 .link:hover {
@@ -219,23 +248,27 @@ form {
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  cursor: pointer;
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
+.tooltip:hover::after {
+  content: attr(data-table); /* Use data-* attribute to store HTML content */
   position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: nowrap;
   z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
+.tooltip:hover::after {
+  opacity: 1;
 }
 
 .slidercentro {
@@ -297,22 +330,22 @@ form {
 }
 
 .manual-btn:hover {
-  background: #40D3DC;
+  background: #40d3dc;
 }
 
-#radio1:checked~.first {
+#radio1:checked ~ .first {
   margin-left: 0;
 }
 
-#radio2:checked~.first {
+#radio2:checked ~ .first {
   margin-left: -20%;
 }
 
-#radio3:checked~.first {
+#radio3:checked ~ .first {
   margin-left: -40%;
 }
 
-#radio4:checked~.first {
+#radio4:checked ~ .first {
   margin-left: -60%;
 }
 
@@ -336,19 +369,19 @@ form {
   margin-right: 40px;
 }
 
-#radio1:checked~.navigation-auto .auto-btn1 {
+#radio1:checked ~ .navigation-auto .auto-btn1 {
   background: #992532;
 }
 
-#radio2:checked~.navigation-auto .auto-btn2 {
+#radio2:checked ~ .navigation-auto .auto-btn2 {
   background: #992532;
 }
 
-#radio3:checked~.navigation-auto .auto-btn3 {
+#radio3:checked ~ .navigation-auto .auto-btn3 {
   background: #992532;
 }
 
-#radio4:checked~.navigation-auto .auto-btn4 {
+#radio4:checked ~ .navigation-auto .auto-btn4 {
   background: #992532;
 }
 

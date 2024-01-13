@@ -1,56 +1,24 @@
-function loadData() {
-    var oXHR = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+document.addEventListener("DOMContentLoaded", function () {
 
-    function reportStatus() {
-        if (oXHR.readyState == 4)             
-            showTheList(this.responseXML);
-    }
+  fetch("../comidas.xml")
+    .then((response) => response.text())
+    .then((data) => {
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(data, "application/xml");
 
-    oXHR.onreadystatechange = reportStatus;
-    oXHR.open("GET", "../comidas.xml", true); 
-    oXHR.send();
-}
+      const comidas = xmlDoc.querySelectorAll("comida");
 
-function showTheList(xml) {
+      const tableBody = document.getElementById("menuTableBody");
 
-    var divBooks = document.getElementById('books');       
-    var Book_List = xml.getElementsByTagName('List');       
+      comidas.forEach((comida) => {
+        const nome = comida.querySelector("nome").textContent;
+        const calorias = comida.querySelector("calorias").textContent;
+        const preco = comida.querySelector("preco").textContent;
 
-    for (var i = 0; i < Book_List.length; i++) {
-
-        var divLeft = document.createElement('div');
-        divLeft.className = 'col1';
-        divLeft.innerHTML = Book_List[i].getElementsByTagName("BookName")[0].childNodes[0].nodeValue;
-
-        var divRight = document.createElement('div');
-        divRight.className = 'col2';
-        divRight.innerHTML = Book_List[i].getElementsByTagName("Editor")[0].childNodes[0].nodeValue;
-
-        divBooks.appendChild(divLeft);
-        divBooks.appendChild(divRight);
-    }
-};
-
-function loadData() {
-    fetch('../comidas.xml')
-        .then(response => response.text())
-        .then(data => {
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(data, 'application/xml');
-            showTheList(xmlDoc);
-        })
-        .catch(error => console.error('Erro ao carregar dados:', error));
-}
-
-function showTheList(xml) {
-    const tableBody = document.getElementById('comidasBody');
-    const comidaList = xml.querySelectorAll('comida');
-
-    comidaList.forEach(comida => {
-        const row = tableBody.insertRow();
-        row.insertCell(0).innerHTML = comida.querySelector('nome').textContent;
-        row.insertCell(1).innerHTML = comida.querySelector('calorias').textContent;
-        row.insertCell(2).innerHTML = comida.querySelector('preco').textContent;
-    });
-}
-loadData();
+        const row = document.createElement("tr");
+        row.innerHTML = `<td>${nome}</td><td>${calorias}</td><td>${preco}</td>`;
+        tableBody.appendChild(row);
+      });
+    })
+    .catch((error) => console.error("Error fetching XML:", error));
+});

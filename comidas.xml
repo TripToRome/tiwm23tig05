@@ -4,19 +4,19 @@
   <comida>
     <nome>Carbonara</nome>
     <calorias>504</calorias>
-    <preco>17</preco>
+    <preco>17€</preco>
   </comida>
 
   <comida>
     <nome>Bolonhesa</nome>
     <calorias>600</calorias>
-    <preco>15</preco>
+    <preco>15€</preco>
   </comida>
 
   <comida>
     <nome>Pizza</nome>
     <calorias>266</calorias>
-    <preco>10</preco>
+    <preco>10€</preco>
   </comida>
 
 </comidas>
