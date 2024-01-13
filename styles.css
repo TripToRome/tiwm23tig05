@@ -60,6 +60,7 @@ footer {
   position: relative;
   bottom: 0;
   width: auto;
+  float: none;
 }
 
 .footerlogo {
