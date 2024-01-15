@@ -15,8 +15,8 @@ Depois de estar por aqui, sua Viagem a Roma jamais será a mesma.
 ## Organização de Repositórios
 
 _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
-* **Source code** está na [src folder](src/).
-* **Relatório** encontrasse na [doc folder](doc/).
+* **Source code** está na [src](src/).
+* **Relatório** encontrasse na [doc](doc/).
 
 ## Galeria
 
