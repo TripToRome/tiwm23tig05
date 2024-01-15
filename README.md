@@ -2,7 +2,7 @@
 
 Repositório feito para para dar host ao projeto desenvolvido para a aula 'Técnologias de Internet', um projeto de primeiro ano no IPMAIA. Desenvolvido pelo grupo cinco: @JoaoPinheiro1311, @AlefAmaral3, @RicardoJesus2004.
 
-## Short theme description
+## Descrição do Tema
 
 Viagens e Turismo - Uma Viagem a Roma.
 
@@ -21,16 +21,14 @@ _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
 ## Galeria
 
 
-## Technologies
+## Linguagens Utilizadas
 
-_Estas foram as linguagens usadas no decorrer do projeto._
 * XML
 * HTML5 + CSS3
 * Javascript
 
-### Frameworks and Libraries
+### Frameworks
 
-_Did you use any aditional libraries? Describe them here._
 * Markdown
 
 ## Report
