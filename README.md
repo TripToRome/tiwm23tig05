@@ -42,4 +42,4 @@ _Please add at least on section (a file) per Chapter. But you can add more._
 
 ## Grupo 05
 * João Pedro Costa Pinheiro [@JoaoPinheiro1311](https://github.com/JoaoPinheiro1311)
-* Alef Roberto Amaral [@AlefAmaral3] (https://github.com/AlefAmaral3)
+* Alef Roberto Amaral [@AlefAmaral3](https://github.com/AlefAmaral3)
