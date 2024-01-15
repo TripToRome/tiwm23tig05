@@ -15,7 +15,7 @@ Depois de estar por aqui, sua Viagem a Roma jamais será a mesma.
 ## Organização de Repositórios
 
 _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
-* **Source code** está na [src](src/).
+* **Source code** está na [src](https://github.com/tiwm23tig05/tiwm23tig05/tree/main/src).
 * **Relatório** encontrasse na [doc](doc/).
 
 ## Galeria
