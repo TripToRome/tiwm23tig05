@@ -28,16 +28,15 @@ _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
 * Javascript
 
 
-## Report
-_Please add at least on section (a file) per Chapter. But you can add more._
+## Relatório
 
-### Project presentation
+### Apresentação do projeto
 * Chapter 1: [Project presentation](doc/c1.md)
-### User Interface 
+### Interface do Usuário 
 * Chapter 2: [User Interface Prototype and Sitemap](doc/c2.md)
-### Product
+### Produto
 * Chapter 3: [Product](doc/c3.md)
-### Presentation
+### Apresentação
 * Chapter 4: [Presentation](doc/c4.md)
 
 ## Grupo 05
