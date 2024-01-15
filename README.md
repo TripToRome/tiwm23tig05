@@ -2,6 +2,8 @@
 
 Repositório feito para para dar host ao projeto desenvolvido para a aula 'Tecnologias de Internet', um projeto de primeiro ano no IPMAIA. Desenvolvido pelo grupo cinco: @JoaoPinheiro1311, @AlefAmaral3, @RicardoJesus2004.
 
+#
+
 ## Descrição do Tema
 
 Viagens e Turismo - Uma Viagem a Roma.
@@ -12,13 +14,19 @@ Uma viagem desta escala, traz-nos experiências e sensações incríveis, é com
 
 Depois de estar por aqui, sua Viagem a Roma jamais será a mesma.
 
+#
+
 ## Organização de Repositórios
 
 _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
 * **Source code** está na [src](https://github.com/tiwm23tig05/tiwm23tig05/tree/main/src).
 * **Relatório** encontrasse na [doc](https://github.com/tiwm23tig05/tiwm23tig05/tree/main/doc).
 
+#
+
 ## Galeria
+
+#
 
 
 ## Linguagens Utilizadas
@@ -26,6 +34,8 @@ _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
 * XML
 * HTML5 + CSS3
 * Javascript
+
+#
 
 
 ## Relatório
@@ -38,6 +48,8 @@ _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
 * Capitulo 3: [Produto](doc/c3.md)
 ### Apresentação
 * Capitulo 4: [Apresentação](doc/c4.md)
+
+#
 
 ## Grupo 05
 * João Pedro Costa Pinheiro [@JoaoPinheiro1311](https://github.com/JoaoPinheiro1311)
