@@ -14,7 +14,6 @@ body {
 }
 
 section {
-  width: 80%;
   margin: 0 auto;
 }
 
@@ -253,14 +252,14 @@ h1 + h2 + p {
 
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
   max-width: 800px;
-  margin: auto;
+  margin: 20px auto;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
-  margin-top: 20px;
+  display: table; /* Adicionado para centralizar em navegadores móveis */
 }
 
 thead {
@@ -544,4 +543,3 @@ form textarea {
   }
 }
 
-/* Fim Slider Inicio */
