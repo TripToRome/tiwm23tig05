@@ -79,6 +79,14 @@ nav a {
   margin-bottom: 10px;
 }
 
+.img {
+  width: 100%;
+  max-height: 650px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  margin-top: 20px;
+}
+
 .image-container {
   flex: 1;
   margin: 0 20px;
@@ -105,12 +113,9 @@ nav a {
   justify-content: center;
 }
 
-.img {
-  width: 100%;
-  max-height: 650px;
-  object-fit: cover;
-  border-radius: 1.5rem;
-  margin-top: 20px;
+h1 + h2 + p {
+  margin: 0;
+  padding: 0;
 }
 
 .mapa {
@@ -194,11 +199,6 @@ dl {
   margin: 0;
 }
 
-h1 + h2 + p {
-  margin: 0;
-  padding: 0;
-}
-
 [TituloPlaneamento="text"] {
   font-style: italic;
   color: #992532;
@@ -257,7 +257,7 @@ table {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
-  display: table; /* Adicionado para centralizar em navegadores móveis */
+  display: table;
 }
 
 thead {
@@ -540,4 +540,3 @@ form textarea {
     font-size: 12px;
   }
 }
-
