@@ -3,25 +3,25 @@
 
   <comida>
     <nome>Carbonara</nome>
-    <calorias>504</calorias>
+    <calorias>98</calorias>
     <preco>7€</preco>
   </comida>
 
   <comida>
     <nome>Pizza Romana</nome>
-    <calorias>266</calorias>
+    <calorias>298</calorias>
     <preco>10€</preco>
   </comida>
 
   <comida>
     <nome>Supplì</nome>
-    <calorias>266</calorias>
+    <calorias>229</calorias>
     <preco>1,50€</preco>
   </comida>
 
   <comida>
     <nome>Cacio e Pepe</nome>
-    <calorias>504</calorias>
+    <calorias>211</calorias>
     <preco>5€</preco>
   </comida>
 
