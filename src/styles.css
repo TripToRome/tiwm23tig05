@@ -163,6 +163,14 @@ strong {
   color: #000000;
 }
 
+[TituloPlaneamento="text"] {
+  font-style: italic;
+  color: #992532;
+  text-align: center;
+}
+
+/* LISTAS */
+
 ul,
 ol,
 dl,
@@ -199,11 +207,7 @@ dl {
   margin: 0;
 }
 
-[TituloPlaneamento="text"] {
-  font-style: italic;
-  color: #992532;
-  text-align: center;
-}
+/* Fim LISTAS */
 
 /* Substituição de Imagem */
 
@@ -236,12 +240,6 @@ dl {
   padding: 20px;
   font-size: 18px;
   font-style: italic;
-}
-
-.centro-conteudo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Fim Substituição de Imagem */
@@ -345,6 +343,12 @@ form textarea {
 
 .botao-form:hover {
   background-color: #992533bb;
+}
+
+.centro-conteudo-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Fim Estilo Comum para Formulários */
