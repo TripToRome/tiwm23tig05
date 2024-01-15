@@ -1,6 +1,7 @@
 # Viagem a Roma
 
-Repositório feito para para dar host ao projeto desenvolvido para a aula 'Tecnologias de Internet', um projeto de primeiro ano no IPMAIA. Desenvolvido pelo grupo 05: @JoaoPinheiro1311, @AlefAmaral3, @RicardoJesus2004.
+Repositório feito para dar host ao projeto desenvolvido para a cadeira 'Tecnologias de Internet', um projeto de primeiro ano no IPMAIA.<br>
+Desenvolvido pelo grupo 05: @JoaoPinheiro1311, @AlefAmaral3, @RicardoJesus2004.
 
 #
 
@@ -25,6 +26,8 @@ _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
 #
 
 ## Galeria
+
+
 
 #
 
