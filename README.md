@@ -27,9 +27,6 @@ _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
 * HTML5 + CSS3
 * Javascript
 
-## Frameworks
-
-* Markdown
 
 ## Report
 _Please add at least on section (a file) per Chapter. But you can add more._
