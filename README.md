@@ -27,6 +27,44 @@ _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
 
 ## Galeria
 
+Com o intuito de vos apresentar demonstrações sobre o site, disponibizaremos imagens para vocês.
+
+<img alt="img1" src="">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
+<img alt="Hiperlink" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/html8.png">
+
 
 
 #
