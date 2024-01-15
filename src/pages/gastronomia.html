@@ -19,23 +19,30 @@
       <a href="planeamento.html" class="link">Planeamento</a>
     </nav>
 
-    <main>
-      <section class="body-content">
-        <article>
-          <div>
-            <table border="1">
-              <thead>
-                <tr>
-                  <th>Nome</th>
-                  <th>Calorias</th>
-                  <th>Preço</th>
-                </tr>
-              </thead>
-              <tbody id="menuTableBody"></tbody>
-            </table>
-            <script src="../comida.js"></script>
-          </div>
-        </article>
+    <main class="body-content">
+        
+        <section class="body-content">
+          <article>
+            <div>
+              <table border="1">
+                <thead>
+                  <tr>
+                    <th rowspan="2">Nome</th>
+                    <th rowspan="2">Calorias</th>
+                    <th colspan="2">Preço</th>
+                  </tr>
+                </thead>
+                <tbody id="menuTableBody"></tbody>
+                <tfoot>
+                  <tr>
+                    <td class="content2" colspan="3">Estas são informações adicionais dos pratos abaixo referidos.</td>
+                  </tr>
+                </tfoot>
+              </table>
+              <script src="../comida.js"></script>
+            </div>
+          </article>
+        </section>   
 
         <article>
           <img
