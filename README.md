@@ -31,13 +31,13 @@ _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
 ## Relatório
 
 ### Apresentação do projeto
-* Chapter 1: [Project presentation](doc/c1.md)
+* Capitulo 1: [Apresentação do Projeto](doc/c1.md)
 ### Interface do Usuário 
-* Chapter 2: [User Interface Prototype and Sitemap](doc/c2.md)
+* Capitulo 2: [Interface do Usuário, Wireframe e Sitemap](doc/c2.md)
 ### Produto
-* Chapter 3: [Product](doc/c3.md)
+* Capitulo 3: [Produto](doc/c3.md)
 ### Apresentação
-* Chapter 4: [Presentation](doc/c4.md)
+* Capitulo 4: [Apresentação](doc/c4.md)
 
 ## Grupo 05
 * João Pedro Costa Pinheiro [@JoaoPinheiro1311](https://github.com/JoaoPinheiro1311)
