@@ -1,7 +1,6 @@
 # Viagem a Roma
 
 Repositório feito para dar host ao projeto desenvolvido para a cadeira 'Tecnologias de Internet', um projeto de primeiro ano no IPMAIA.<br>
-Desenvolvido pelo grupo 05: @JoaoPinheiro1311, @AlefAmaral3, @RicardoJesus2004.
 
 #
 
@@ -66,7 +65,6 @@ Com o intuito de vos apresentar demonstrações sobre o site, disponibizaremos i
 <img alt="img" src="https://github.com/tiwm23tig05/tiwm23tig05/blob/main/doc/Imagens/18.png">
 
 
-
 #
 
 
@@ -74,7 +72,7 @@ Com o intuito de vos apresentar demonstrações sobre o site, disponibizaremos i
 
 * XML
 * HTML5 + CSS3
-* Javascript
+* JavaScript
 
 #
 
