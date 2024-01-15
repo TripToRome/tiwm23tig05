@@ -177,6 +177,17 @@ nav a {
   visibility: hidden;
 }
 
+strong {
+  font-weight: bold;
+  color: #000000;
+}
+
+[TituloPlaneamento="text"] {
+  font-style: italic;
+  color: #992532;
+  text-align: center;
+}
+
 /* Substituição de Imagem */
 
 .substituir-por-imagem {
