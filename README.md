@@ -16,7 +16,7 @@ Depois de estar por aqui, sua Viagem a Roma jamais será a mesma.
 
 _Aqui estão os repositórios e onde encontrar os devidos ficheiros:_
 * **Source code** está na [src folder](src/).
-* Relatório encontrasse na [doc folder](doc/).
+* **Relatório** encontrasse na [doc folder](doc/).
 
 ## Galeria
 
